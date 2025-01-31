@@ -50,7 +50,7 @@ export function SignInForm({
 				},
 			});
 		} catch (error) {
-			toast.error("Credenciais inválidas");
+			toast.error("Ocorreu um erro, tente novamente.");
 		}
 	}
 
